@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rightchain.MainActivity"
-    android:background="@color/backgroundPrimary">
+    android:background="@color/backgroundPrimary"
+    tools:context="com.rightchain.MainActivity">
 
     <LinearLayout
         android:id="@+id/PrimaryLayout"
@@ -48,8 +48,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.34"
-                    android:orientation="horizontal"
-                    android:background="@drawable/user_icon"></LinearLayout>
+                    android:background="@drawable/user_icon"
+                    android:orientation="horizontal"></LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/Space1LayoutButton"
                     android:layout_width="match_parent"
@@ -69,7 +70,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="@string/propiedades"
-                        android:textAlignment="center"                        />
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -84,8 +85,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.35"
-                    android:orientation="horizontal"
-                    android:background="@drawable/cellphone_icon"></LinearLayout>
+                    android:background="@drawable/cellphone_icon"
+                    android:orientation="horizontal"></LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/RightCenterLayoutButton"
@@ -118,24 +119,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.45"
-                android:orientation="horizontal">
-            </LinearLayout>
+                android:orientation="horizontal"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/CenterLayoutGallery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.1"
-                android:orientation="horizontal">
-            </LinearLayout>
+                android:orientation="horizontal"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/RightLayoutGallery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.45"
-                android:orientation="horizontal">
-            </LinearLayout>
+                android:orientation="horizontal"></LinearLayout>
 
 
         </LinearLayout>
@@ -145,8 +143,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:orientation="horizontal">
-        </LinearLayout>
+            android:orientation="horizontal"></LinearLayout>
 
     </LinearLayout>
 
